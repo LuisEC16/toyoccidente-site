@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; ISO-8859-1">
+	<meta name="DC.Language" scheme="RFC1766" content="Spanish">
+	<meta name="author" content="FV">
+	<meta name="description" content="Empresa líder en">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="keywords" content="">
+	<meta name="Resource-type" content="Document">
+	<meta name="Revisit-after" content="2 days">
+	<meta name="robots" content="All">
+  <link sizes="196x196" href="./img/icono.png" rel="icon">
+	<title>Toyoccidente </title>
+	<meta charset="utf-8">
+	<link rel="icon" type="image/x-icon" href="img/favicon.ico">
+  <script src="https://kit.fontawesome.com/819330974d.js" crossorigin="anonymous"></script>	
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/formStyles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.7.4/css/uikit.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+<body class="body">
+  <nav class="mobile-nav">
+    <a href="#">Inicio</a>
+    <a href="#vehiculos">Vehículos</a>
+    <a href="http://wa.me/+584121085309">Servicios</a>
+    <a href="https://www.toyota.com.ve/mi-toyota/accesorios">Accesorios</a>
+    <a href="http://wa.me/+584246267993">Repuestos</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+    <header class="header">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid header">
+              <div class="navbar-brand">
+                <img class="navbar-brand" src="./img/ToyoLogo.png" alt="logocredimara.png">
+              </div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              
+              <!-- Modal -->
+              <div  id="my-modal" style="display: none;">
+                <div class="uk-modal-dialog uk-modal-body" style="padding: 0px 0px; width:960px; position: relative;">
+                  <div style="position: relative; display: inline-block; width: 100%;">
+                      <img src="img/BannerCarousel.jpg" style="width: 100%; height: auto;">
+                      <a href="https://play.google.com/store/apps/details?id=com.toyotaargentina.oneapp" 
+                          style="position: absolute; left: 28%; top: 79%; width: 12.5%; height: 9%; opacity: 0;"></a>
+                      <a href="https://apps.apple.com/us/app/toyota-latam/id1597365457" 
+                          style="position: absolute; left: 41%; top: 79%; width: 12.5%; height: 9%; opacity: 0;"></a>
+                    </div>
+                  <img src="./img/close.png" style="position: absolute; top: 0; right: 0; transform: translate(50%, -50%); width: 35px; height: 35px;" onclick="closeModal()" data-bs-dismiss="modal" aria-label="Close">
+                </div>
+              </div>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav  mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="./index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#vehiculos">Vehículos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="http://wa.me/+584121085309">Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" target="_blank" href="https://www.toyota.com.ve/mi-toyota/accesorios">Accesorios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="http://wa.me/+584246267993">Repuestos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav  mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <i class="fas fa-search"></i>
+                  </li>
+                </ul>
+              </div>
+              <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav  mb-2 mb-lg-0">
+                  <div class="social-instagram">
+                    <a target="_blank"  href="https://www.instagram.com/toyoccidente_ca/"><img src="./img/ICONOINSTAGRAM.png" alt="" style="max-width: 1.8rem;"></i></a>
+                </div>
+                <div class="social-facebook">
+                    <a target="_blank"  href="https://www.facebook.com/toyoccidente"><img src="./img/ICONOFACEBOOK.png" alt="" style="max-width: 1.8rem;"></a>
+                </div>
+                <div class="social-twitter">
+                    <a  target="_blank" href="https://www.linkedin.com/company/toyoccidente-c-a"><img src="./img/ICONOLINKEDIN.png" alt="" style="max-width: 1.8rem;"></a>
+                </div>
+                </ul>
+              </div> -->
+            </div>
+            <div class="hamburguer">
+              <div class="bar">
+    
+              </div>
+            </div>
+          </nav>
+              <!-- <div class="menu">
+               <a href="">Inicio</a>
+               <a href="#nosotros">Nosotros</a>
+               <a href="#vehiculos">Vehículos</a> 
+               <a href="#servicios">Servicios</a>
+               <a href="#contacto">Contacto</a>
+              </div> -->
+        </div>
+    </header>
+   <a href=""><div class="boton-arriba-contenedor">
+    <a  target="_blank"  href="https://api.whatsapp.com/send/?phone=584121085309&text&type=phone_number&app_absent=0">
+      <div class="volver-arriba">
+        <i class="fab fa-whatsapp"></i>
+        </div>
+    </a>
+  </div></a>
+  <main>
+    <div class="main-carousel-"  >
+      <div class="carousel-cell"><img src="./img/BANNERStoyo1.jpg" alt=""></div>
+      <div class="carousel-cell"><img src="./img/BANNERStoyo2.png" alt=""></div>
+      <div class="carousel-cell"><img src="./img/BANNERS-toyo-3.jpg" alt=""></div>
+      <div class="carousel-cell"><img  src="./img/BANNERStoyo4.jpg" alt=""></div>
+    </div>
+    <section id="nosotros"  class="header-back">
+        <div class="container">
+            <div class="card-headerr " >
+                <div class="title-card">
+                    <span  class="toyota-bold">Acerca de <img class="brand-toyo-card" src="./img/ToyoLogo.png" alt=""></span>
+                </div>
+                <div class="text-card" >
+                    <span >Contamos con 20 años en el mercado automotriz, prestándole a todos los venezolanos <br>
+                        un servicio exclusivo, el cual está basado en los estándares de calidad <span class="toyota-bold">TOYOTA</span> en cuanto <br> 
+                        a servicio y productos, en Toyoccidente te brindamos todo nuestro esfuerzo y hacemos que tu <br> felicidad sea <span class="toyota-bold" style="    font-family: 'UniversalLTSd75Black';                        ">nuestra principal prioridad</span></span>
+                </div >               
+            </div>
+        </div>
+    </section>
+    <section class="vehiculos-disponibles" id="vehiculos">
+      <h2>Vehículos disponibles</h2> 
+      <h2 class="toyota-bold" style="color:#1f1f1f">en Venezuela</h2>
+
+    </section>
+    <section class="hero">
+      <div class="splide">
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide">
+              <div  id="contenido-1">
+                 <div class="container">
+                  <div class="row">
+                    <div class="col-xl-6">
+                      <div class="image">
+                        <img src="./img/Cars/LAND-CRUISER-FJ-2026-WX-2.7-6-AT-4X4.png" alt="">
+                      </div>
+                    </div>
+                    <div class="col-xl-6 text-center" style="margin-top: 1rem;">
+                      <div class="info">
+                        <h2 class="text-center toyota-bold">LAND CRUISER FJ 2026</h2>
+                        <h3 class="text-center toyota-bold mt-2">WX 2.7 6 AT 4X4</h3>
+                        <div class="boton-cotizacion">
+                         <a  target="_blank" href="https://api.whatsapp.com/send/?phone=584121085309&text&type=phone_number&app_absent=0"><button>SOLICITA TU COTIZACIÓN</button></a> 
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                 </div>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div  id="contenido-1">
+                 <div class="container">
+                  <div class="row">
+                    <div class="col-xl-6">
+                      <div class="image">
+                        <img src="./img/Cars/LAND-CRUISER-FJ-2026-2.7-6-AT-4X4.png" alt="">
+                      </div>
+                    </div>
+                    <div class="col-xl-6 text-center" style="margin-top: 1rem;">
+                      <div class="info">
+                        <h2 class="text-center toyota-bold">LAND CRUISER FJ 2026</h2>
+                        <h3 class="text-center toyota-bold mt-2">2.7 6 AT 4X4</h3>
+                        <div class="boton-cotizacion">
+                         <a  target="_blank" href="https://api.whatsapp.com/send/?phone=584121085309&text&type=phone_number&app_absent=0"><button>SOLICITA TU COTIZACIÓN</button></a> 
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                 </div>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div  id="contenido-1">
+                 <div class="container">
+                  <div class="row">
+                    <div class="col-xl-6">
+                      <div class="image">
+                        <img src="./img/Cars/AGYA-2025-(G-1.2-5MT).png" alt="">
+                      </div>
+                    </div>
+                    <div class="col-xl-6 text-center" style="margin-top: 1rem;">
+                      <div class="info">
+                        <h2 class="text-center toyota-bold">AGYA 2026</h2>
+                        <h3 class="text-center toyota-bold mt-2">G 1.2 5MT</h3>
+                        <div class="boton-cotizacion">
+                         <a  target="_blank" href="https://api.whatsapp.com/send/?phone=584121085309&text&type=phone_number&app_absent=0"><button>SOLICITA TU COTIZACIÓN</button></a> 
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                 </div>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div  id="contenido-1">
+                 <div class="container">
+                  <div class="row">
+                    <div class="col-xl-6">
+                      <div class="image">
+                        <img src="./img/Cars/AGYA-2025-(G-1.2-CTV).png" alt="">
+                      </div>
+                    </div>
+                    <div class="col-xl-6 text-center" style="margin-top: 1rem;">
+                      <div class="info">
+                        <h2 class="text-center toyota-bold">AGYA 2026</h2>
+                        <h3 class="text-center toyota-bold mt-2">G 1.2 CTV</h3>
+                        <div class="boton-cotizacion">
+                         <a  target="_blank" href="https://api.whatsapp.com/send/?phone=584121085309&text&type=phone_number&app_absent=0"><button>SOLICITA TU COTIZACIÓN</button></a> 
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                 </div>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div  id="contenido-1">
+                 <div class="container">
+                  <div class="row">
+                    <div class="col-xl-6">
+                      <div class="image">
+                        <img src="./img/Cars/COROLLA-2025-(SEG-2.0-CVT).png" alt="">
+                      </div>
+                    </div>
+                    <div class="col-xl-6 text-center" style="margin-top: 1rem;">
+                      <div class="info">
+                        <h2 class="text-center toyota-bold">COROLLA 2026</h2>
+                        <h3 class="text-center toyota-bold mt-2">SEG 2.0 CVT </h3>
+                        <div class="boton-cotizacion">
+                         <a  target="_blank" href="https://api.whatsapp.com/send/?phone=584121085309&text&type=phone_number&app_absent=0"><button>SOLICITA TU COTIZACIÓN</button></a> 
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                 </div>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div  id="contenido-1">
+                 <div class="container">
+                  <div class="row">
+                    <div class="col-xl-6">
+                      <div class="image">
+                        <img src="./img/Cars/COROLLA-CROSS-2025-(2.0-CVT).png" alt="">
+                      </div>
+                    </div>
+                    <div class="col-xl-6 text-center" style="margin-top: 1rem;">
+                      <div class="info">
+                        <h2 class="text-center toyota-bold">COROLLA CROSS 2026</h2>
+                        <h3 class="text-center toyota-bold mt-2">2.0 CVT</h3>
+                        <div class="boton-cotizacion">
+                         <a  target="_blank" href="https://api.whatsapp.com/send/?phone=584121085309&text&type=phone_number&app_absent=0"><button>SOLICITA TU COTIZACIÓN</button></a> 
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                 </div>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div  id="contenido-1">
+                 <div class="container">
+                  <div class="row">
+                    <div class="col-xl-6">
+                      <div class="image">
+                        <img src="./img/Cars/FORTUNER-SW4-2025-(SRX-4.0-6AT-4X4).png" alt="">
+                      </div>
+                    </div>
+                    <div class="col-xl-6 text-center" style="margin-top: 1rem;">
+                      <div class="info">
+                        <h2 class="text-center toyota-bold">Fortuner SW4 2026</h2>
+                        <h3 class="text-center toyota-bold mt-2">SRX 4.0 6AT 4X4</h3>
+                        <div class="boton-cotizacion">
+                         <a  target="_blank" href="https://api.whatsapp.com/send/?phone=584121085309&text&type=phone_number&app_absent=0"><button>SOLICITA TU COTIZACIÓN</button></a> 
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                 </div>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div  id="contenido-1">
+                 <div class="container">
+                  <div class="row">
+                    <div class="col-xl-6">
+                      <div class="image">
+                        <img src="./img/Cars/HIACE-2025-(PANEL-2.5D-5MT).png" alt="">
+                      </div>
+                    </div>
+                    <div class="col-xl-6 text-center" style="margin-top: 1rem;">
+                      <div class="info">
+                        <h2 class="text-center toyota-bold">HIACE 2026</h2>
+                        <h3 class="text-center toyota-bold mt-2">PANEL 2.5D 5MT</h3>
+                        <div class="boton-cotizacion">
+                         <a  target="_blank" href="https://api.whatsapp.com/send/?phone=584121085309&text&type=phone_number&app_absent=0"><button>SOLICITA TU COTIZACIÓN</button></a> 
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                 </div>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div  id="contenido-1">
+                 <div class="container">
+                  <div class="row">
+                    <div class="col-xl-6">
+                      <div class="image">
+                        <img src="./img/Cars/HILUX-2025-(D-C-DX-2.4D-6MT-4X4).png" alt="">
+                      </div>
+                    </div>
+                    <div class="col-xl-6 text-center" style="margin-top: 1rem;">
+                      <div class="info">
+                        <h2 class="text-center toyota-bold">HILUX 2026</h2>
+                        <h3 class="text-center toyota-bold mt-2">D C DX 2.4D 6MT 4X4</h3>
+                        <div class="boton-cotizacion">
+                         <a  target="_blank" href="https://api.whatsapp.com/send/?phone=584121085309&text&type=phone_number&app_absent=0"><button>SOLICITA TU COTIZACIÓN</button></a> 
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                 </div>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div  id="contenido-1">
+                 <div class="container">
+                  <div class="row">
+                    <div class="col-xl-6">
+                      <div class="image">
+                        <img src="./img/Cars/HILUX-2025-(D-C-SR-2.8D-6AT-4X4).png" alt="">
+                      </div>
+                    </div>
+                    <div class="col-xl-6 text-center" style="margin-top: 1rem;">
+                      <div class="info">
+                        <h2 class="text-center toyota-bold">HILUX 2026</h2>
+                        <h3 class="text-center toyota-bold mt-2">D C SR 2.8D 6AT 4X4</h3>
+                        <div class="boton-cotizacion">
+                         <a  target="_blank" href="https://api.whatsapp.com/send/?phone=584121085309&text&type=phone_number&app_absent=0"><button>SOLICITA TU COTIZACIÓN</button></a> 
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                 </div>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div  id="contenido-1">
+                 <div class="container">
+                  <div class="row">
+                    <div class="col-xl-6">
+                      <div class="image">
+                        <img src="./img/Cars/HILUX-2025-(D-C-SRV-2.7-6AT-4X4).png" alt="">
+                      </div>
+                    </div>
+                    <div class="col-xl-6 text-center" style="margin-top: 1rem;">
+                      <div class="info">
+                        <h2 class="text-center toyota-bold">HILUX 2026</h2>
+                        <h3 class="text-center toyota-bold mt-2">D C SRV 2.7 6AT 4X4</h3>
+                        <div class="boton-cotizacion">
+                         <a  target="_blank" href="https://api.whatsapp.com/send/?phone=584121085309&text&type=phone_number&app_absent=0"><button>SOLICITA TU COTIZACIÓN</button></a> 
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                 </div>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div  id="contenido-1">
+                 <div class="container">
+                  <div class="row">
+                    <div class="col-xl-6">
+                      <div class="image">
+                        <img src="./img/Cars/HILUX-2025-(D-C-SRX-4.0-6AT-4X4).png" alt="">
+                      </div>
+                    </div>
+                    <div class="col-xl-6 text-center" style="margin-top: 1rem;">
+                      <div class="info">
+                        <h2 class="text-center toyota-bold">HILUX 2026</h2>
+                        <h3 class="text-center toyota-bold mt-2">D C SRX 4.0 6AT 4X4</h3>
+                        <div class="boton-cotizacion">
+                         <a  target="_blank" href="https://api.whatsapp.com/send/?phone=584121085309&text&type=phone_number&app_absent=0"><button>SOLICITA TU COTIZACIÓN</button></a> 
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                 </div>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div  id="contenido-1">
+                 <div class="container">
+                  <div class="row">
+                    <div class="col-xl-6">
+                      <div class="image">
+                        <img src="./img/Cars/LAND-CRUISER-70-2025-(76-LX-4.0-5MT-4X4).png" alt="">
+                      </div>
+                    </div>
+                    <div class="col-xl-6 text-center" style="margin-top: 1rem;">
+                      <div class="info">
+                        <h2 class="text-center toyota-bold">LAND CRUISER 70 2026</h2>
+                        <h3 class="text-center toyota-bold mt-2">76 LX 4.0 5MT 4X4</h3>
+                        <div class="boton-cotizacion">
+                         <a  target="_blank" href="https://api.whatsapp.com/send/?phone=584121085309&text&type=phone_number&app_absent=0"><button>SOLICITA TU COTIZACIÓN</button></a> 
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                 </div>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div  id="contenido-1">
+                 <div class="container">
+                  <div class="row">
+                    <div class="col-xl-6">
+                      <div class="image">
+                        <img src="./img/Cars/LAND-CRUISER-70-2025-(79-D-C-LX-4.0-5MT-4X4).png" alt="">
+                      </div>
+                    </div>
+                    <div class="col-xl-6 text-center" style="margin-top: 1rem;">
+                      <div class="info">
+                        <h2 class="text-center toyota-bold">LAND CRUISER 70 2026</h2>
+                        <h3 class="text-center toyota-bold mt-2">79 D C LX 4.0 5MT 4X4</h3>
+                        <div class="boton-cotizacion">
+                         <a  target="_blank" href="https://api.whatsapp.com/send/?phone=584121085309&text&type=phone_number&app_absent=0"><button>SOLICITA TU COTIZACIÓN</button></a> 
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                 </div>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div  id="contenido-1">
+                 <div class="container">
+                  <div class="row">
+                    <div class="col-xl-6">
+                      <div class="image">
+                        <img src="./img/Cars/LAND-CRUISER-300-2025-(GX-R-4.0-6AT-4X4).png" alt="">
+                      </div>
+                    </div>
+                    <div class="col-xl-6 text-center" style="margin-top: 1rem;">
+                      <div class="info">
+                        <h2 class="text-center toyota-bold">LAND CRUISER 300 2026</h2>
+                        <h3 class="text-center toyota-bold mt-2">GX R 4.0 6AT 4X4</h3>
+                        <div class="boton-cotizacion">
+                         <a  target="_blank" href="https://api.whatsapp.com/send/?phone=584121085309&text&type=phone_number&app_absent=0"><button>SOLICITA TU COTIZACIÓN</button></a> 
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                 </div>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div  id="contenido-1">
+                 <div class="container">
+                  <div class="row">
+                    <div class="col-xl-6">
+                      <div class="image">
+                        <img src="./img/Cars/LAND-CRUISER-300-2025-(VX-4.0-6AT-4X4).png" alt="">
+                      </div>
+                    </div>
+                    <div class="col-xl-6 text-center" style="margin-top: 1rem;">
+                      <div class="info">
+                        <h2 class="text-center toyota-bold">LAND CRUISER 300 2026</h2>
+                        <h3 class="text-center toyota-bold mt-2">VX 4.0 6AT 4X4</h3>
+                        <div class="boton-cotizacion">
+                         <a  target="_blank" href="https://api.whatsapp.com/send/?phone=584121085309&text&type=phone_number&app_absent=0"><button>SOLICITA TU COTIZACIÓN</button></a> 
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                 </div>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div  id="contenido-1">
+                 <div class="container">
+                  <div class="row">
+                    <div class="col-xl-6">
+                      <div class="image">
+                        <img src="./img/Cars/LAND-CRUISER-PRADO-2025-(TX-2.8D-8AT-4X4).png" alt="">
+                      </div>
+                    </div>
+                    <div class="col-xl-6 text-center" style="margin-top: 1rem;">
+                      <div class="info">
+                        <h2 class="text-center toyota-bold">LAND CRUISER PRADO 2026</h2>
+                        <h3 class="text-center toyota-bold mt-2">TX 2.8D 8AT 4X4</h3>
+                        <div class="boton-cotizacion">
+                         <a  target="_blank" href="https://api.whatsapp.com/send/?phone=584121085309&text&type=phone_number&app_absent=0"><button>SOLICITA TU COTIZACIÓN</button></a> 
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                 </div>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div  id="contenido-1">
+                 <div class="container">
+                  <div class="row">
+                    <div class="col-xl-6">
+                      <div class="image">
+                        <img src="./img/Cars/LAND-CRUISER-PRADO-2025-(WX-2.7-6AT-4X4).png" alt="">
+                      </div>
+                    </div>
+                    <div class="col-xl-6 text-center" style="margin-top: 1rem;">
+                      <div class="info">
+                        <h2 class="text-center toyota-bold">LAND CRUISER PRADO 2026</h2>
+                        <h3 class="text-center toyota-bold mt-2">WX 2.7 6AT 4X4</h3>
+                        <div class="boton-cotizacion">
+                         <a  target="_blank" href="https://api.whatsapp.com/send/?phone=584121085309&text&type=phone_number&app_absent=0"><button>SOLICITA TU COTIZACIÓN</button></a> 
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                 </div>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div  id="contenido-1">
+                 <div class="container">
+                  <div class="row">
+                    <div class="col-xl-6">
+                      <div class="image">
+                        <img src="./img/Cars/YARIS-2025-(SEDAN-G-1.5-CVT).png" alt="">
+                      </div>
+                    </div>
+                    <div class="col-xl-6 text-center" style="margin-top: 1rem;">
+                      <div class="info">
+                        <h2 class="text-center toyota-bold">YARIS 2026</h2>
+                        <h3 class="text-center toyota-bold mt-2">SEDAN G 1.5 CVT</h3>
+                        <div class="boton-cotizacion">
+                         <a  target="_blank" href="https://api.whatsapp.com/send/?phone=584121085309&text&type=phone_number&app_absent=0"><button>SOLICITA TU COTIZACIÓN</button></a> 
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                 </div>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div  id="contenido-1">
+                 <div class="container">
+                  <div class="row">
+                    <div class="col-xl-6">
+                      <div class="image">
+                        <img src="./img/Cars/YARIS-2025-(SEDAN-3-1.5-CVT).png" alt="">
+                      </div>
+                    </div>
+                    <div class="col-xl-6 text-center" style="margin-top: 1rem;">
+                      <div class="info">
+                        <h2 class="text-center toyota-bold">YARIS 2026</h2>
+                        <h3 class="text-center toyota-bold mt-2">SEDAN 3 1.5 CVT</h3>
+                        <div class="boton-cotizacion">
+                         <a  target="_blank" href="https://api.whatsapp.com/send/?phone=584121085309&text&type=phone_number&app_absent=0"><button>SOLICITA TU COTIZACIÓN</button></a> 
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                 </div>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div  id="contenido-1">
+                 <div class="container">
+                  <div class="row">
+                    <div class="col-xl-6">
+                      <div class="image">
+                        <img src="./img/Cars/YARIS-CROSS-2025-(G-1.5-CVT).png" alt="">
+                      </div>
+                    </div>
+                    <div class="col-xl-6 text-center" style="margin-top: 1rem;">
+                      <div class="info">
+                        <h2 class="text-center toyota-bold">YARIS cross 2026</h2>
+                        <h3 class="text-center toyota-bold mt-2">G 1.5 CVT</h3>
+                        <div class="boton-cotizacion">
+                         <a  target="_blank" href="https://api.whatsapp.com/send/?phone=584121085309&text&type=phone_number&app_absent=0"><button>SOLICITA TU COTIZACIÓN</button></a> 
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                 </div>
+              </div>
+            </li>
+            </ul>
+          </div>
+        </div>
+    </section>
+    <section class="text-center agendar-cita">
+      <h2 class="text-center">¿Quieres agendar <br> <span id="cita-nueva" class="toyota-bold">una cita?</span></h2>
+      <span class="visitar">Para visitar nuestras instalaciones y realizarle algún tipo de servicio a tu Toyota o si necesitas <br> algún repuesto original,
+        llena nuestro formulario, y <span class="toyota-bold cita-toyota">en la brevedad posible serás atentido</span> </span>
+    </section>
+    <!-- <div class="main-carousel">
+      <div class="carousel-cell"><img src="./img/banner_down.jpg" alt=""></div>
+    </div> -->
+    <section class="form">
+      <div class="container">
+        <div class="box">
+          <h2 class="toyota-bold text-center">INTRODUCE TUS DATOS</h2>
+          <!-- <form method="POST" class="formulario">
+            <input type="text" name="Nombre" required placeholder="Nombre y apellido">
+            <input type="text" name="email" placeholder="Correo electrónico">
+            <input type="text" name="teléfono" placeholder="Número de teléfono">
+            <input type="hidden" name="_subject" value="Nuevo mensaje">
+            <textarea name="mensaje" placeholder="Escribe un mensaje..." id="" cols="30" rows="10"></textarea>
+            <div class="button text-center">
+              <button class="toyota-bold">ENVIAR</button>
+            </div>
+          </form> -->
+          <form id="contactForm" method="POST" class="formulario">
+            <!-- Campo Nombre -->
+            <div class="form-group">
+                <input type="text" id="nombre" name="Nombre" required placeholder="Nombre y apellido">
+                <div class="error-message" id="Nombre-error"></div>
+            </div>
+            
+            <!-- Campo Email -->
+            <div class="form-group">
+                <input type="email" id="email" name="email" required placeholder="Correo electrónico">
+                <div class="error-message" id="email-error"></div>
+            </div>
+            
+            <!-- Campo Teléfono -->
+            <div class="form-group">
+                <input type="tel" id="telefono" name="teléfono" placeholder="Número de teléfono">
+                <div class="error-message" id="teléfono-error"></div>
+            </div>
+            
+            <!-- Campo Oculto -->
+            <input type="hidden" name="_subject" value="Nuevo mensaje">
+            
+            <!-- Campo Mensaje -->
+            <div class="form-group">
+                <textarea id="mensaje" name="mensaje" required placeholder="Escribe un mensaje..." cols="30" rows="10"></textarea>
+                <div class="error-message" id="mensaje-error"></div>
+            </div>
+            
+            <!-- Botón de Envío -->
+            <div class="button text-center">
+                <button type="submit" class="toyota-bold">ENVIAR</button>
+            </div>
+            
+            <!-- Mensaje de Feedback (añadido) -->
+            <div id="formFeedback" style="display: none;"></div>
+        </form>
+        </div>
+      </div>
+    </section>
+    <div class="main-carousel" style="margin-top: 3rem;">
+      <div class="carousel-cell"><img src="./img/BannerFJ.JPG" alt=""></div>
+    </div>
+    <div class="main-carousel" style="margin: 3rem 0;">
+      <div class="carousel-cell">
+        <video controls muted playsinline width="100%" src="./img/VideoFJ.mp4"></video>
+      </div>
+    </div>
+    <section class="contacto">
+      <div class="container">
+        <div class="contacto-titulo">
+          <h2 id="contacto" style="margin-top: 2rem;">Contacto</h2>
+        </div>
+      </div>
+      <div class="background-C">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-6 text-contact">
+              <h2 style="margin-top: 2rem; color:white;">Puedes contactarnos a través del</h2>
+              <div class="numbers">
+                <span class="number-contact"> <img style="width: 4rem;" src="./img/WA.png" alt=""> +58 412-1085309</span>
+                <span class="number-contact"> <img style="width: 4rem;" src="./img/WA.png" alt=""> +58 424-6267993</span>
+                <span class="number-contact toyota-bold"><img style="width: 4rem;" src="./img/email.png" alt="">Toyoccidentecrm@grupochars.com</span>
+                <span class="number-contact "><img style="width: 4rem;" src="./img/ubicacion.png" alt=""> <span>Calle 72 con Av. 3G<br>
+                <span style="margin-left: 4rem;" class="toyota-bold">Maracaibo - Edo.Zulia - Venezuela</span> </span> 
+                </span>
+              </div>            
+            </div>
+            <div class="col-xl-6">
+              <div class="image">
+                <img class="image-contact" src="./img/smartphone.png" style="max-width: 20rem;" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <div class="main-carousel" style="margin-top: 10rem;">
+      <div class="carousel-cell">
+        <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScYFbBN-6qcGs6qFXQ9TyiyDUFcu-htoLQn1oc6uyigawc8rw/viewform?fbclid=PAVERFWAPQ1WBleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA8xMjQwMjQ1NzQyODc0MTQAAacSEY--Pp3roQvqAH9lGGLeNqzSuGm7TdNOyxRHRY7mbe_1GMI9sF5kUjvvwA_aem_1kYYsXew4mFXx--FEdZ0yw">
+          <img src="./img/Repuestos.jpg" alt="">
+        </a>
+      </div>
+    </div> -->
+    <section class="seccion-instagram">
+      <div class="titulo-instagram">
+        <h2 class="text-center toyota-bold" style="font-size: 3rem;">¡Visita nuestro <br> perfil!</h2>
+        <div class="imagen-instagram text-center">
+         <a target="_blank" href="https://www.instagram.com/toyoccidente_ca/"><img class="instagram-icon-c"  src="./img/INSTAGRAM .png" alt=""></a> 
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-4">
+             <a href="https://www.instagram.com/toyoccidente_ca/" target="_blank"><img style="width: 100%; margin-top: 1rem; object-fit: cover; max-height: 520px" src="./img/Instagram-posts/direccion.jpg" alt=""></a>       
+            </div>
+            <div class="col-xl-4">
+              <a href="https://www.instagram.com/toyoccidente_ca/" class="cursor-pointer">
+                <img style="width: 100%; margin-top: 1rem; object-fit: cover; max-height: 520px" src="./img/Instagram-posts/anuncio-nuevo.jpg" alt="">     
+              </a>
+            </div>
+            <div class="col-xl-4">
+              <a href="https://www.instagram.com/toyoccidente_ca/" target="_blank" class="cursor-pointer">
+                <img style="width: 100%; margin-top: 1rem; object-fit: cover; max-height: 520px" src="./img/Instagram-posts/horarios-nuevos.jpg" alt="">     
+              </a> 
+            </div>
+            <div class="col-xl-4">
+              <a href="https://www.instagram.com/toyoccidente_ca/" target="_blank" class="cursor-pointer">
+                <img style="width: 100%; margin-top: 1rem; object-fit: cover; max-height: 520px" src="./img/Instagram-posts/merece-calidad.jpg" alt="">     
+              </a> 
+            </div>
+            <div class="col-xl-4">
+              <a href="https://www.instagram.com/toyoccidente_ca/" target="_blank" class="cursor-pointer">
+                <img style="width: 100%; margin-top: 1rem; object-fit: cover; max-height: 520px" src="./img/Instagram-posts/solicitud-nueva.jpg" alt="">     
+              </a>     
+            </div>
+            <!-- <div class="col-xl-4">
+              <a href="https://www.instagram.com/toyoccidente_ca/" target="_blank" class="cursor-pointer">
+                <img style="width: 100%; margin-top: 1rem; object-fit: cover; max-height: 520px" src="./img/Instagram-posts/ya-abrimos.jpg" alt="">     
+              </a>     
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="seccion-equipo">
+      <div class="container">
+        <h2 class="text-center toyota-bold" style="font-size: 3rem;">Equipo Toyoccidente</h2>
+        <div class="team-grid-2">
+          <div class="team-member">
+              <img src="img/core-team/Peter.png" loading="lazy" alt="Peter Bravo">
+              <h3>Peter Bravo</h3>
+              <p>Asesor de Servicio</p>
+          </div>
+          <div class="team-member">
+              <img src="img/core-team/Jose.png" loading="lazy" alt="Jose Molina">
+              <h3>Jose Molina</h3>
+              <p>Asesor de Servicio</p>
+          </div>
+        </div>
+        <div class="team-grid-3 mt-2">
+          <div class="team-member">
+              <img src="img/core-team/Genesis.png" loading="lazy" alt="Genesis Castaño">
+              <h3>Genesis Castaño</h3>
+              <p>Recepción</p>
+          </div>
+          <div class="team-member">
+              <img src="img/core-team/Luigi.png" loading="lazy" alt="Luigi Valbuena">
+              <h3>Luigi Valbuena</h3>
+              <p>Asesor de Repuesto</p>
+          </div>
+          <div class="team-member">
+              <img src="img/core-team/Yeris.png" loading="lazy" alt="Yeris Montiel">
+              <h3>Yeris Montiel</h3>
+              <p>Asistente de Repuesto</p>
+          </div>
+        </div>
+          <div class="team-grid-3 mt-2">
+            <div class="team-member">
+                <img src="img/core-team/Vanessa.png" loading="lazy" alt="Vanessa Colina">
+                <h3>Vanessa Colina</h3>
+                <p>Ejecutiva de Ventas</p>
+            </div>
+            <div class="team-member">
+                <img src="img/core-team/Alejandra.png" loading="lazy" alt="Alejandra Carruyo">
+                <h3>Alejandra Carruyo</h3>
+                <p>Ejecutiva de Ventas</p>
+            </div>
+            <div class="team-member">
+                <img src="img/core-team/Jorge.png" loading="lazy" alt="Jorge Díaz">
+                <h3>Jorge Díaz</h3>
+                <p>Ejecutivo de Ventas</p>
+            </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <img src="./img/toyoFooter.jpg" loading="lazy" alt="">
+    </footer>
+  </main>
+  <script src="./js/hamburguerMenu.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.7.4/js/uikit.min.js"></script>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <script src="./js/emailHandler.js"></script>
+  <script src="./js/scrolling.js"></script>
+  <script src="./js/sticky-menu.js"></script>
+  <script src="./js/scroll.js"></script>
+  <script src="./js/slides.js"></script>
+  <script src="./js/volver-arriba.js"></script>
+  <script src="./js/slides2.js"></script>
+  <script src="./js/fullscreenslides.js"></script>
+  <script src="./js/popup.js"></script>
+
+</body>
+</html>
